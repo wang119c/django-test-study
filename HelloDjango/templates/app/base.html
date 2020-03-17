@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+
+{% block header %}
+
+{% endblock %}
+
+{% block banner %}
+
+{% endblock %}
+
+
+{% block content %}
+
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}
+
+
+{% load static %}
+
+<a href="{% url 'second:home' %}">条Hus你</a>
+
+<script src="{% static 'test.js' %}"></script>
+
+</body>
+</html>

@@ -7,6 +7,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/HelloDjango/app/templates" />
+        <option value="$MODULE_DIR$/HelloDjango/static" />
+        <option value="$MODULE_DIR$/HelloDjango/templates" />
+        <option value="$MODULE_DIR$/HelloDjango/templates/app" />
+      </list>
+    </option>
+  </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
