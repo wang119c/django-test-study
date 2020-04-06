@@ -25,4 +25,5 @@ urlpatterns = [
     url(r'^two/', include('two.urls')),
     url(r'^three/', include('three.urls')),
     url(r'^four/', include('four.urls', namespace='four')),
+url(r'^five/', include('five.urls', namespace='five')),
 ]

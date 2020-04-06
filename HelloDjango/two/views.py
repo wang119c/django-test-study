@@ -71,4 +71,3 @@ def have_request(request):
     return HttpResponse('ok')
 
 
-
